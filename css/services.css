@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+* {
+  font-family: "Kaushan Script", cursive;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.navigation{
+    text-align: right;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #cc0066;
+    font-size: 25px;
+    text-align: center;
+  
+}
+section {
+  padding: 3rem 5%;
+  display: block;
+}
+.services .title {
+  text-align: center;
+  color: #900c3f;
+  font-size: 4rem;
+  font-weight: 600;
+}
+.services .title span {
+  color: #cc0066;
+  display: inline-block;
+  display: inline-block;
+  margin-bottom: 0.2rem;
+}
+.services .box-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  margin-top: 2rem;
+}
+
+.service-item {
+  margin: 20px;
+  width: 520px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px 0px #000;
+}
+
+.service-item img {
+  height: 20rem;
+  max-height: 100%;
+  width: 100%;
+}
+
+.service-item .content {
+  padding: 2rem;
+  padding-top: 5.5rem;
+  text-align: center;
+  position: relative;
+}
+
+.service-item i {
+  height: 6rem;
+  width: 6rem;
+  font-size: 2.5rem;
+  position: absolute;
+  top: -50px;
+  left: 40%;
+  color: white;
+  background-color: #900c3f;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  display: flex;
+  flex-flow: column;
+}
+.service-item h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: black;
+  padding-bottom: 0.5rem;
+}
+.service-item h3:hover {
+  color: #cc0066;
+}
+.service-item p {
+  font-size: 1.5rem;
+  color: gray;
+  line-height: 1.7;
+}
+
+@media screen and (max-width: 630px) {
+  .services .service-item {
+    display: inline-block;
+    height: fit-content;
+  }
+
+  .services .title {
+    font-size: 20px;
+  }
+
+  .services .service-item img {
+    width: 100%;
+    height: 100%;
+  }
+}
