@@ -1,0 +1,23 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body{
+    margin: 0;
+    padding:0;
+    background-color: #ffe6f2;
+}
+
+.nav{
+    text-align: right;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #cc0066;
+    font-size: 25px;
+    text-align: center;
+}
+.menu{
+    margin-top: none;
+    color: white;
+    text-decoration: none;
+    font-family: 'Kaushan Script', cursive; 
+}
