@@ -1,6 +1,5 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-
 .heading{
     font-family: 'Kaushan Script', cursive;
    text-align: center; 
@@ -9,18 +8,25 @@
    color: white;
    margin: 0;
 }
+.box{
+        position: sticky;
+        top:0;
+}
 .p{
     font-size: 25px;
     text-align: center;
     color:#cc0066;
     font-family: 'Kaushan Script', cursive;
     margin: 0;
+    background-color: #ffe6f2;
 }
+
 .main-img{
     width: 100%;
     height: 600px;
     margin: 0;
     padding: 0;
+    
 }
 .icons{
     width: 100px;
@@ -28,7 +34,7 @@
 }
 .parent{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-around;
     align-items: centre;
     margin-top: 60px;
 }
@@ -36,23 +42,76 @@
     text-align: center;
 }
 .icons{
+    box-shadow: 2px 4px 8px 0px #000;
      background-color: #cc0066;
      border: 1px solid black;
      border-radius:50%;
 
 }
 .icons:hover{
-    box-shadow: 1px 1px 5px 6px black;
+    box-shadow: 5px 5px 5px 2px black;
     cursor: pointer;
     transition: 0.5s;
 }
 .head{
     font-family: 'Kaushan Script', cursive;
     font-weight:bold;
-    font-size: 20px;
+    color: black ;
+    font-size: 30px;
 }
 .para{
     font-family: 'Kaushan Script', cursive;
-    font-size:20px;
-    
+    font-size:23px;
+    color: grey;
+}
+.Category{
+    color:#cc0066 ;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+.main-category{
+    color:#900c3f;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 0;
+}
+.Category-container{
+    display: flex;
+    justify-content:space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  margin-top: 2rem;
+}
+.Category-card{
+   
+    margin: 20px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 25px;
+    box-shadow: 0px 4px 8px 0px #000;
+}
+.Category-img{
+    border-radius: 25px 25px 0 0;
+    height: 20rem;
+    max-height: 100%;
+    width: 100%;
+}
+.Category-name{
+    color:black;
+    font-weight: 600px;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.5rem;
+}
+.Category-items{
+    font-size: 2.0rem;
+    color: gray;
+    line-height: 1.7;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
 }
