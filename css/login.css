@@ -8,7 +8,7 @@ body {
   align-items: center;
   justify-content: center;
   /* min-height: 100vh; */
-  background-image: url("../img/valbg.avif");
+  background-image: url("../img/loginbg.jpg");
   background-repeat: no-repeat;
   /* background-position: 20px 100px; */
 
@@ -25,7 +25,7 @@ body {
   width: 500px;
   height: 700px;
   background-color: transparent;
-  border: 2px solid rgba(255, 255, 255, 0.5);
+  border: 2px solid black;
   border-radius: 20px;
   backdrop-filter: blur(55px);
   display: flex;
@@ -33,6 +33,7 @@ body {
   align-items: center;
   padding: 2rem 3rem;
   margin: 8% 35%;
+  box-shadow: ;
 }
 
 .login {
