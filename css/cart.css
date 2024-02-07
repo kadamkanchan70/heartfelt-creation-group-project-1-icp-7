@@ -11,7 +11,8 @@
 
 .cntnr {
     display: flex;
-    margin-left: 10px;
+    margin-left:50px;
+    margin-top:30px;
 }
 
 button {
@@ -82,4 +83,16 @@ input {
 }
 .cpn{
 height: 650px;;
+}
+.prc{
+    display:flex;
+    font-family: 'Kaushan Script', cursive;
+    color:#cc0066 ;
+    font-size: 25px;
+    margin-left:20px;
+   
+}
+.prc button{
+    margin-left:50px;
+    margin-top:0px;
 }
