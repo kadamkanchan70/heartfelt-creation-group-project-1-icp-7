@@ -33,6 +33,9 @@
 }
 .parent {
   display: flex;
+  justify-content: space-around;
+  align-items:centre;
+  margin-top: 60px;
   justify-content:space-around ;
   align-items: centre;
   margin-top: 80px;
@@ -158,7 +161,11 @@
   .nav {
     font-size: medium;
   }
+<<<<<<< HEAD
   .delivery{
     margin-bottom:30px ;
   }
+=======
+  
+>>>>>>> 1bb808036376cacf120e4b0707f9b531c1818bb6
 }

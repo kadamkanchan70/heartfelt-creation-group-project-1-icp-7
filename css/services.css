@@ -56,7 +56,13 @@ section {
   border-radius: 10px;
   box-shadow: 0px 4px 8px 0px #000;
 }
-
+.service-item:hover {
+  box-shadow: 0 6px 28px black;
+  position: relative;
+  transform: translateY(-6px);
+  font-size: 0.6rem;
+  transition: 0.3s;
+}
 .service-item img {
   height: 20rem;
   max-height: 100%;
