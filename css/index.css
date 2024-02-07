@@ -120,7 +120,7 @@
   text-align: center;
   font-family: "Kaushan Script", cursive;
   font-size: 2.5rem;
-  padding: 5px 5px;
+  padding: 10px 20px;
 }
 .Category-items {
   font-size: 2rem;
@@ -158,6 +158,7 @@
   .nav {
     font-size: medium;
   }
-  .Category {
+  .delivery{
+    margin-bottom:30px ;
   }
 }
