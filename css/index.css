@@ -33,6 +33,9 @@
 }
 .parent {
   display: flex;
+  justify-content: space-around;
+  align-items:centre;
+  margin-top: 60px;
   justify-content:space-around ;
   align-items: centre;
   margin-top: 80px;
@@ -158,6 +161,5 @@
   .nav {
     font-size: medium;
   }
-  .Category {
-  }
+  
 }
