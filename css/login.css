@@ -1,7 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 * {
   margin: 0;
   padding: 0;
-  font-family: "poppins", sans-serif;
+  font-family: "Kaushan Script", cursive;
 }
 body {
   display: block;
@@ -25,7 +26,8 @@ body {
   width: 500px;
   height: 700px;
   background-color: transparent;
-  border: 2px solid black;
+  border: 3px solid black;
+  background-color:  #ffb3b3;
   border-radius: 20px;
   backdrop-filter: blur(55px);
   display: flex;
@@ -33,9 +35,16 @@ body {
   align-items: center;
   padding: 2rem 3rem;
   margin: 8% 35%;
-  box-shadow: ;
+  box-shadow: 0px 4px 8px 0px #000;
 }
-
+.mainh:hover {
+  /* top: -6px; */
+  box-shadow: 0 5px 28px black;
+  font-size: 0.6rem;
+transform: translateY(-6px);
+  color: #ff3385;
+  transition: 0.3s;
+}
 .login {
   width: 350px;
 }
