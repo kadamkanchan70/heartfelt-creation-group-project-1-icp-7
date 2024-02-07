@@ -33,7 +33,7 @@
 .parent {
   display: flex;
   justify-content: space-around;
-  align-items: centre;
+  align-items:centre;
   margin-top: 60px;
 }
 .delivery {
