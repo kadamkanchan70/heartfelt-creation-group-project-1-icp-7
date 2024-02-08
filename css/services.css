@@ -115,6 +115,53 @@ section {
   .services .service-item {
     display: inline-block;
     height: fit-content;
+    font-size: smaller;
+  }
+  .service-item img {
+    height: 100px;
+    width: 100px;
+  }
+  .service-item .content {
+    padding: 1rem;
+    padding-top: 2.5rem;
+    text-align: center;
+    position: relative;
+  }
+  .service-item i {
+    height: 5rem;
+    width: 5rem;
+    font-size: 2.5rem;
+    position: absolute;
+    top: -50px;
+    left: 40%;
+    color: white;
+    background-color: #900c3f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+  }
+  .service-item p {
+    font-size: 1rem;
+    color: gray;
+    /* overflow: hidden; */
+  }
+  .service-item h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+    /* overflow: hidden; */
+  }
+  .box1 a {
+    font-size: medium;
+  }
+
+  .nav {
+    font-size: small;
   }
 
   .services .title {

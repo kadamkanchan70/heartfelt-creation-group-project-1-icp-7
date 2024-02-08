@@ -34,23 +34,23 @@
 .parent {
   display: flex;
   justify-content: space-around;
-  align-items:centre;
+  align-items: centre;
   margin-top: 60px;
-  justify-content:space-around ;
+  justify-content: space-around;
   align-items: centre;
   margin-top: 80px;
   margin-bottom: 60px;
 }
 .delivery {
   text-align: center;
+  justify-content: center;
   width: 350px;
   border: 1px solid black;
   margin: 10px 20px;
   border-radius: 30px;
-  box-shadow: 0px 4px 8px 0px #000; 
-  
+  box-shadow: 0px 4px 8px 0px #000;
 }
-.delivery:hover{
+.delivery:hover {
   box-shadow: 5px 5px 5px 2px black;
   transition: 0.5s;
 }
@@ -109,10 +109,16 @@
   box-shadow: 0px 4px 8px 0px #000;
   
 }
+<<<<<<< HEAD
+.Category-card:hover {
+  box-shadow: 3px 3px 10px 4px #000;
+  transition: 0.5s;
+=======
 .Category-card:hover{
   box-shadow: 5px 5px 5px 2px black;
   
  
+>>>>>>> 4eae499502e8a725e2a91217096f3fa3068d99ca
 }
 .Category-img {
   border-radius: 25px 25px 0 0;
@@ -145,18 +151,20 @@
   .main-img {
     height: 100%;
   }
-    .box p {
+  .box p {
     font-size: medium;
   }
   p {
     font-size: small;
   }
-  .main-category{
+  .main-category {
     font-size: 55px;
   }
   .parent {
-    display: block;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    align-items: center;
   }
   .happy .parent .delivery {
     padding: 10px;
@@ -164,7 +172,10 @@
   .nav {
     font-size: medium;
   }
+<<<<<<< HEAD
+=======
   .delivery{
     margin-bottom:30px ;
   }
+>>>>>>> 4eae499502e8a725e2a91217096f3fa3068d99ca
 }
