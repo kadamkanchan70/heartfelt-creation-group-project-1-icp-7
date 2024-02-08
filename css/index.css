@@ -61,7 +61,7 @@
   border-radius: 50%;
 }
 .icons:hover {
-  box-shadow: 5px 5px 5px 2px black;
+  
   cursor: pointer;
   transition: 0.5s;
 }
@@ -110,7 +110,7 @@
   
 }
 .Category-card:hover{
-  box-shadow: 0 6px 28px black;
+  box-shadow: 5px 5px 5px 2px black;
   
  
 }
@@ -136,7 +136,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 768px) {
   body {
     display: inline-block;
     height: fit-content;
