@@ -5,10 +5,10 @@ Looking to make this Valentine's Day extra special? You're in the right place! O
 ## About Us
 We are passionate about helping you celebrate love and affection in the most personalized way possible. Our store specializes in creating unique, heartfelt gifts that are tailored to your loved one's preferences, ensuring a truly memorable Valentine's Day experience.
 ## Why Choose Us
--**Customization:** We offer a wide range of customizable gifts, allowing you to add your personal touch and create something truly unique.
--**Quality:** Each product is crafted with care using high-quality materials, ensuring both durability and aesthetic appeal.
--**Variety:** From custom engraved jewelry to personalized photo frames, we have a diverse selection of gifts to suit every taste and budget.
--**Convenience:** Our user-friendly online platform makes it easy to browse, customize, and order your Valentine's Day gifts from the comfort of your own home.
+1.Customization: We offer a wide range of customizable gifts, allowing you to add your personal touch and create something truly unique.<br/>
+2.Quality: Each product is crafted with care using high-quality materials, ensuring both durability and aesthetic appeal.<br/>
+3.Variety: From custom engraved jewelry to personalized photo frames, we have a diverse selection of gifts to suit every taste and budget.<br/>
+4.Convenience: Our user-friendly online platform makes it easy to browse, customize, and order your Valentine's Day gifts from the comfort of your own home.<br/>
 ---
 ![Screenshots](./img/readme-img1.png)
 ---
