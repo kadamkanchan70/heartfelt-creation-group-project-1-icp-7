@@ -14,6 +14,7 @@
 .p {
   font-size: 25px;
   text-align: center;
+  position: relative;
   color: #cc0066;
   font-family: "Kaushan Script", cursive;
   margin: 0;
@@ -61,7 +62,6 @@
   border-radius: 50%;
 }
 .icons:hover {
-  
   cursor: pointer;
   transition: 0.5s;
 }
@@ -107,14 +107,13 @@
   overflow: hidden;
   border-radius: 25px;
   box-shadow: 0px 4px 8px 0px #000;
-  
 }
 .Category-card:hover {
   box-shadow: 3px 3px 10px 4px #000;
   transition: 0.5s;
 }
 
-.Category-card:hover{
+.Category-card:hover {
   box-shadow: 5px 5px 5px 2px black;
 }
 .Category-img {
@@ -170,17 +169,11 @@
     font-size: medium;
   }
 
-  .delivery{
-    margin-bottom:30px ;
-  }
-  .hamburger-menu{
-    background-color: #cc0066 ;
-    size: 100%;
+  .delivery {
+    margin-bottom: 30px;
   }
 
-
-  .delivery{
-    margin-bottom:30px ;
+  .delivery {
+    margin-bottom: 30px;
   }
-
 }
