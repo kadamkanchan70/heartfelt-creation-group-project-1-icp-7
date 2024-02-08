@@ -1,23 +1,7 @@
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 
 .title1 {
     font-family: "Kaushan Script", cursive;
-=======
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-* {
-    margin: 0;
-    padding:0;
-    background-size: cover;
-}
-
-.main-body{
-    font-family: 'Kaushan Script', cursive;
-    margin-bottom: 80px;
-}
-.main-body .p1{
-    font-size: 120px;
->>>>>>> 5e3cb450bf73e8e659e9730020657deffa069984
     text-align: center;
     color: #900c3f;
     font-size: 70px;
@@ -40,7 +24,6 @@
     font-size: 30px;
     color: rgb(36, 35, 35);
 }
-
 .members{
     text-align: center;
     font-family: 'Kaushan Script', cursive;
@@ -67,50 +50,5 @@
 
 .first-3 .m1: hover{
     transition: 1s;
-<<<<<<< HEAD
     border-radius: 10px;
 }
-=======
-    border-radius: 10%;
-}
-.D2{
-        margin: 30px;
-        height: 700px;
-        width: 600px;
-        display: inline-block;
-        font-family: 'Kaushan Script', cursive;
-        box-shadow: 0 0 13px 3px rgb(7, 7, 7);
-        background-image: url(./../img/sarita1.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    .D2:hover{
-        transition: 1s;
-        border-radius: 10%;
-    }
-.D3{
-        margin: 30px;
-        height: 700px;
-        width: 600px;
-        display: inline-block;
-        font-family: 'Kaushan Script', cursive;
-        box-shadow: 0 0 13px 3px rgb(7, 7, 7);
-        background-image: url(./../img/sarita.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        
-}
-.D3:hover{
-    transition: 0.5s;
-    border-radius: 10%;
-}
-.name
-{
-    font-size: 50px;
-    font-family: 'Kaushan Script', cursive;
-    margin-top: 500px;
-    font-weight: 600;
-    color: white;
-}
-
->>>>>>> 5e3cb450bf73e8e659e9730020657deffa069984
