@@ -10,14 +10,35 @@ body{
 .nav{
     text-align: right;
     display: flex;
-    justify-content:space-around;
     background-color: #cc0066;
-    font-size: 25px;
-    text-align: center;
+   font-size: 25px;
+   position: relative;
+   justify-content:space-evenly;
 }
 .menu{
-    margin-top: none;
+   
     color: white;
     text-decoration: none;
     font-family: 'Kaushan Script', cursive; 
+    padding: 2px 30px;
+    margin: 1px 15px;
 }
+.hamburger-menu{
+    height: 40px;
+    position: absolute;
+    right: 10px;
+}
+
+@media screen and (max-width:768px){
+    .hamburger-menu{
+        visibility: visible;
+    }
+    .menu{
+        display: none;
+    }
+}
+@media screen and (min-width:769px) {
+    .hamburger-menu{
+        display:none;
+    }
+  }
