@@ -109,16 +109,12 @@
   box-shadow: 0px 4px 8px 0px #000;
   
 }
-<<<<<<< HEAD
 .Category-card:hover {
   box-shadow: 3px 3px 10px 4px #000;
   transition: 0.5s;
-=======
+}
 .Category-card:hover{
   box-shadow: 5px 5px 5px 2px black;
-  
- 
->>>>>>> 4eae499502e8a725e2a91217096f3fa3068d99ca
 }
 .Category-img {
   border-radius: 25px 25px 0 0;
@@ -172,10 +168,8 @@
   .nav {
     font-size: medium;
   }
-<<<<<<< HEAD
-=======
+
   .delivery{
     margin-bottom:30px ;
   }
->>>>>>> 4eae499502e8a725e2a91217096f3fa3068d99ca
 }
