@@ -15,6 +15,12 @@
   font-size: 25px;
   text-align: center;
 }
+.he2 {
+  color: #cc0066;
+}
+.he1 {
+  font-size: 80px;
+}
 .title {
   text-align: center;
   color: #900c3f;
@@ -61,11 +67,16 @@
   color: white;
   border: none;
   padding: 10px 50px;
+  margin-bottom: 50px;
   border-radius: 25px;
   margin-left: 120px;
   font-size: 25px;
   box-shadow: 0px 4px 8px 0px #000;
-  margin-bottom: 40px;
+}
+.btn-buy:hover {
+  box-shadow: 0px 6px 9px 0px #000;
+  transform: scale(1.03);
+  transition: 0.3s;
 }
 .discription {
   font-size: 35px;
@@ -84,5 +95,6 @@
   padding-left: 10px;
   padding-right: 10px;
   color: grey;
-  text-align: justify;
+  text-align: center;
+  margin-top: 5px;
 }
