@@ -4,9 +4,10 @@ Welcome to our Heartfelt Creations! 💝
 Looking to make this Valentine's Day extra special? You're in the right place! Our customized gift store offers a unique selection of heartfelt gifts that are perfect for expressing your love and affection.
 ## About Us
 We are passionate about helping you celebrate love and affection in the most personalized way possible. Our store specializes in creating unique, heartfelt gifts that are tailored to your loved one's preferences, ensuring a truly memorable Valentine's Day experience.
-![Screenshots](./img/readme-img1.png)
+
+![Our Home Page](./img/readme-img1.png)
 ---
-![Screenshots](./img/readme-img2.png)
+![Our Home Page](./img/readme-img2.png)
 ---
 ## How to Contribute
 To contribute to a Valentine's Day special customized gift store on GitHub, you'll need to follow these general steps:
