@@ -85,6 +85,9 @@
   margin: 10px 20px;
   margin-top: 20px;
 }
+.discription:hover {
+  color: #cc0066;
+}
 .B {
   height: 20rem;
   max-height: 100%;
