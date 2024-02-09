@@ -166,7 +166,7 @@
     padding: 10px;
   }
   .nav {
-    font-size: medium;
+    font-size:medium;
   }
 
   .delivery {
@@ -175,5 +175,9 @@
 
   .delivery {
     margin-bottom: 30px;
+  }
+  .menu{
+    margin:5px;
+    padding: 5px;
   }
 }

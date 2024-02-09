@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 
+  @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 body {
   margin: 0;
   padding: 0;
@@ -22,22 +22,3 @@ body {
   margin: 1px 15px;
 }
 
-.hamburger-menu {
-  height: 40px;
-  position: absolute;
-  right: 10px;
-}
-
-@media screen and (max-width: 768px) {
-  .hamburger-menu {
-    visibility: visible;
-  }
-  .menu {
-    display: none;
-  }
-}
-@media screen and (min-width: 769px) {
-  .hamburger-menu {
-    visibility: hidden;
-  }
-}
