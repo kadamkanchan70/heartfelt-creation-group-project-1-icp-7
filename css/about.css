@@ -1,54 +1,64 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
-
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 .title1 {
-    font-family: "Kaushan Script", cursive;
-    text-align: center;
-    color: #900c3f;
-    font-size: 70px;
-    font-weight: 600;
-    padding: 150px;
-    box-shadow: 0 0 10px 3px #e1388d;
-}
-.sp{
-    
-}
-.about1{
-    text-align:center ;
-    font-family: 'Kaushan Script', cursive;
-}
-.about1 .we-are{
-    font-size: 70px;
-    color: #cc0066;
-}
-.about1 .p1{
-    font-size: 30px;
-    color: rgb(36, 35, 35);
-}
-.members{
-    text-align: center;
-    font-family: 'Kaushan Script', cursive;
-}
-.members .we-are{
-    font-size: 70px;
-    color: #cc0066;
-    text-align: center;
-}   
-.first-3{
-}
-.first-3 .m1{
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-    height: 450px;
-    display: inline-block;
-    margin: 20px;
-    padding: 10px;
-    width: 300px;
-    font-size: 30px;
-    box-shadow: 0 0 10px 3px #4f4c4e;
+  font-family: "Kaushan Script", cursive;
+  text-align: center;
+  display: inline-block;
+  color: #900c3f;
+  font-size: 70px;
+  font-weight: 600;
+  padding: 150px;
 }
 
-.first-3 .m1: hover{
-    transition: 1s;
-    border-radius: 10px;
+.about1 {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+}
+.about1 .we-are {
+  font-size: 70px;
+  color: #cc0066;
+}
+.about1 .p1 {
+  font-size: 30px;
+  color: rgb(36, 35, 35);
+}
+.members {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+}
+.members .we-are {
+  font-size: 70px;
+  color: #cc0066;
+}
+.first-3 .m1 {
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  height: 450px;
+  display: inline-block;
+  justify-content: space-evenly;
+  margin: 20px;
+  padding: 10px;
+  width: 350px;
+  font-size: 30px;
+  box-shadow: 0 0 10px 3px #4f4c4e;
+  border-radius: 15px;
+}
+.socials {
+  border-radius: 20px;
+}
+.socials:hover {
+  text-decoration: none;
+  box-shadow: 4px 4px 4px 1px black;
+}
+
+.first-3 .m1:hover {
+  box-shadow: 0 6px 28px black;
+  position: relative;
+  transform: translateY(-6px);
+  transition: 0.3s;
 }
