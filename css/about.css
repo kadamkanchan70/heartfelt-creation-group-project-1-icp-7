@@ -13,34 +13,33 @@ body {
   font-weight: 600;
   padding: 150px;
 }
-.destination{
+.destination {
   text-decoration: none;
   text-align: center;
   font-family: "Kaushan Script", cursive;
 }
-.destination .gift-img{
+.destination .gift-img {
   border-radius: 20px;
   margin: 10px;
   border: 1px solid black;
-  box-shadow:0px 4px 8px 0px #000; 
-
+  box-shadow: 0px 4px 8px 0px #000;
 }
-.gift-text{
+.gift-text {
   font-size: 25px;
   text-align: left;
   padding: 20px;
   color: rgb(36, 35, 35);
 }
-.destination .gifts{
+.destination .gifts {
   font-family: "Kaushan Script", cursive;
-  font-size:55px;
+  font-size: 55px;
   color: #cc0066;
 }
-.rate{
+.rate {
   text-align: center;
   font-family: "Kaushan Script", cursive;
 }
-.rate .rate-text{
+.rate .rate-text {
   font-size: 30px;
   text-align: left;
   padding: 30px;
@@ -95,7 +94,10 @@ body {
   transform: translateY(-6px);
   transition: 0.3s;
 }
-.names{
+.names {
   margin-top: 20px;
-  font-size: 40px;
+  font-size: 35px;
+}
+@media screen and (max-width: 768px) {
+  
 }
