@@ -17,6 +17,7 @@ body {
   text-decoration: none;
   text-align: center;
   font-family: "Kaushan Script", cursive;
+  margin-left: 120px;
 }
 .destination .gift-img {
   border-radius: 20px;
@@ -94,10 +95,27 @@ body {
   transform: translateY(-6px);
   transition: 0.3s;
 }
+.col1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.col2 {
+  display: flex;
+  justify-content: space-evenly;
+}
 .names {
   margin-top: 20px;
   font-size: 35px;
 }
 @media screen and (max-width: 768px) {
-  
+  .col1 {
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .col2 {
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
