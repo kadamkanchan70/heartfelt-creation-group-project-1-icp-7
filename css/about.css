@@ -146,8 +146,10 @@ body {
       text-decoration: none;
       box-shadow: 6px 6px 6px 3px black;
     }
+    .names {
+      font-size: 82px;
   }
-  .names {
-    font-size: 82px;
-  }
+}
+  
+
 
