@@ -218,3 +218,28 @@ body {
   font-size: 2rem;
   padding-left: 1rem;
 }
+@media screen and (max-width: 630px) {
+  .maincol {
+    flex-direction: column;
+  }
+  .column-2 {
+    flex-direction: column;
+    margin-left: 90px;
+    margin-bottom: 80px;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-form .btn {
+    margin-bottom: 90px;
+  }
+  .column-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .contact-form {
+    padding-bottom: 15px;
+  }
+}
