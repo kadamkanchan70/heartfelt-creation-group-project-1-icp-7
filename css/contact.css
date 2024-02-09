@@ -242,4 +242,23 @@ body {
   .contact-form {
     padding-bottom: 15px;
   }
+  .footer-col ul li a {
+    font-size: 30px !important;
+  }
+  .footer-col h4 {
+    font-size: 30px !important;
+  }
+  .footer-col .social-links a img {
+    height: 70px !important;
+  }
+  .footer-col .social-links a {
+    height: 68px !important;
+    width: 63px !important;
+  }
+  .menu {
+    font-size: 30px !important;
+  }
+  .nav {
+    height: 56px;
+  }
 }

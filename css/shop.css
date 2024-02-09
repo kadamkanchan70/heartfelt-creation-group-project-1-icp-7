@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 * {
   font-family: "Kaushan Script", cursive;
   box-sizing: border-box;
@@ -70,7 +69,7 @@
   padding: 10px 50px;
   margin-bottom: 50px;
   border-radius: 25px;
-  margin-left: 120px;
+  margin-left: 12vh;
   font-size: 25px;
   box-shadow: 0px 4px 8px 0px #000;
 }
@@ -101,4 +100,9 @@
   color: grey;
   text-align: center;
   margin-top: 5px;
+}
+@media screen and (max-width: 555px) {
+  .btn-buy {
+    margin-left: 10vh;
+  }
 }
