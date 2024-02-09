@@ -13,7 +13,38 @@ body {
   font-weight: 600;
   padding: 150px;
 }
+.destination{
+  text-decoration: none;
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+}
+.destination .gift-img{
+  border-radius: 20px;
+  margin: 10px;
 
+}
+.gift-text{
+  font-size: 25px;
+  text-align: left;
+  padding: 20px;
+  color: rgb(36, 35, 35);
+}
+.destination .gifts{
+  font-family: "Kaushan Script", cursive;
+  font-size:55px;
+  color: #cc0066;
+}
+.rate{
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+}
+.rate .rate-text{
+  font-size: 30px;
+  text-align: left;
+  padding: 30px;
+  color: rgb(36, 35, 35);
+  margin: 40px;
+}
 .about1 {
   text-align: center;
   font-family: "Kaushan Script", cursive;
@@ -38,7 +69,7 @@ body {
   border-color: black;
   border-width: 2px;
   border-style: solid;
-  height: 450px;
+  height: 500px;
   display: inline-block;
   justify-content: space-evenly;
   margin: 20px;
