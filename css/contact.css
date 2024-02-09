@@ -218,7 +218,7 @@ body {
   font-size: 2rem;
   padding-left: 1rem;
 }
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 768px) {
   .maincol {
     flex-direction: column;
   }

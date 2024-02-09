@@ -112,7 +112,7 @@ section {
   overflow: hidden;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width:768px) {
   .services .service-item {
     display: inline-block;
     height: fit-content;
