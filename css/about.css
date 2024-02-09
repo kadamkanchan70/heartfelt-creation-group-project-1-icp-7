@@ -149,6 +149,10 @@ body {
     .names {
       font-size: 82px;
   }
+  .menu{
+    margin:5px;
+    padding: 5px;
+  }
 }
   
 
