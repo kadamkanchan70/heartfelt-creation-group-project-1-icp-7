@@ -21,6 +21,8 @@ body {
 .destination .gift-img{
   border-radius: 20px;
   margin: 10px;
+  border: 1px solid black;
+  box-shadow:0px 4px 8px 0px #000; 
 
 }
 .gift-text{
@@ -92,4 +94,8 @@ body {
   position: relative;
   transform: translateY(-6px);
   transition: 0.3s;
+}
+.names{
+  margin-top: 20px;
+  font-size: 40px;
 }
