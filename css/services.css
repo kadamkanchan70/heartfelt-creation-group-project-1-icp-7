@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 * {
   font-family: "Kaushan Script", cursive;
   box-sizing: border-box;
@@ -112,7 +111,7 @@ section {
   overflow: hidden;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .services .service-item {
     display: inline-block;
     height: fit-content;
@@ -162,10 +161,10 @@ section {
   }
 
   .nav {
-    font-size:small;
+    font-size: small;
   }
   .services .title {
-    font-size: 20px;
+    font-size: 40px;
   }
 
   .services .service-item img {
