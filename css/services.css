@@ -7,18 +7,26 @@
   text-decoration: none;
   text-transform: capitalize;
 }
-.navigation{
-    text-align: right;
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #cc0066;
-    font-size: 25px;
-    text-align: center;
-  
+.box1 {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+.navigation {
+  text-align: right;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #cc0066;
+  font-size: 25px;
+  text-align: center;
 }
 section {
   padding: 3rem 5%;
   display: block;
+}
+
+.services {
+  overflow: hidden;
 }
 .services .title {
   text-align: center;
@@ -32,9 +40,10 @@ section {
   margin-bottom: 0.2rem;
 }
 .services .box-container {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
+  overflow: hidden;
   width: 100%;
   height: 100%;
   margin-top: 2rem;
@@ -47,7 +56,13 @@ section {
   border-radius: 10px;
   box-shadow: 0px 4px 8px 0px #000;
 }
-
+.service-item:hover {
+  box-shadow: 0 6px 28px black;
+  position: relative;
+  transform: translateY(-6px);
+  font-size: 0.6rem;
+  transition: 0.3s;
+}
 .service-item img {
   height: 20rem;
   max-height: 100%;
@@ -77,12 +92,14 @@ section {
   border-radius: 50%;
   display: flex;
   flex-flow: column;
+  overflow: hidden;
 }
 .service-item h3 {
   font-size: 2.5rem;
   font-weight: 600;
   color: black;
   padding-bottom: 0.5rem;
+  overflow: hidden;
 }
 .service-item h3:hover {
   color: #cc0066;
@@ -91,16 +108,63 @@ section {
   font-size: 1.5rem;
   color: gray;
   line-height: 1.7;
+  overflow: hidden;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 768px) {
   .services .service-item {
     display: inline-block;
     height: fit-content;
+    font-size: smaller;
+  }
+  .service-item img {
+    height: 100px;
+    width: 100px;
+  }
+  .service-item .content {
+    padding: 1rem;
+    padding-top: 2.5rem;
+    text-align: center;
+    position: relative;
+  }
+  .service-item i {
+    height: 5rem;
+    width: 5rem;
+    font-size: 2.5rem;
+    position: absolute;
+    top: -50px;
+    left: 40%;
+    color: white;
+    background-color: #900c3f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+  }
+  .service-item p {
+    font-size: 1rem;
+    color: gray;
+    /* overflow: hidden; */
+  }
+  .service-item h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+    /* overflow: hidden; */
+  }
+  .box1 a {
+    font-size: medium;
   }
 
+  .nav {
+    font-size: small;
+  }
   .services .title {
-    font-size: 20px;
+    font-size: 40px;
   }
 
   .services .service-item img {

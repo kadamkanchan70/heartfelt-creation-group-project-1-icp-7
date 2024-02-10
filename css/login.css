@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kaushan Script", cursive;
+}
+body {
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/loginbg.jpg");
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+}
+.box1 {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+.mainh {
+  position: relative;
+  width: 500px;
+  height: 700px;
+  background-color: transparent;
+  border: 3px solid black;
+  background-color:#ff80aa;
+  border-radius: 20px;
+  backdrop-filter: blur(55px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 2rem 3rem;
+  margin: 5% auto;
+  box-shadow: 0px 4px 8px 0px #000;
+}
+.mainh:hover {
+  /* top: -6px; */
+  box-shadow: 0 5px 28px black;
+  font-size: 0.6rem;
+  transform: translateY(-6px);
+  color: #ff3385;
+  transition: 0.3s;
+}
+.login {
+  width: 350px;
+}
+h1 {
+  font-size: 3.5rem;
+  color: black;
+  text-align: center;
+}
+.inputbox {
+  position: relative;
+  margin: 40px 0;
+  max-width: 450px;
+  border-bottom: 2px solid black;
+}
+.inputbox label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: black;
+  font-size: 1rem;
+  pointer-events: none;
+  transition: all 0.4s ease-in-out;
+}
+input:focus ~ label,
+input:valid ~ label {
+  top: -5px;
+}
+.inputbox input {
+  width: 100%;
+  height: 60px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  padding: 0 15px 0 5px;
+  color: black;
+}
+.inputbox ion-icon {
+  position: absolute;
+  right: 8px;
+  color: #fff;
+  font-size: 1.2rem;
+  top: 20%;
+}
+.forgot {
+  margin: 35px 0;
+  font-size: 0.85rem;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.forgot label {
+  display: flex;
+  align-items: center;
+}
+.forgot label input {
+  margin-right: 3px;
+}
+.forgot a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+.forgot a:hover {
+  text-decoration: underline;
+}
+button {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 1);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.4s ease;
+}
+button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.register {
+  font-size: 0.9rem;
+  color: black;
+  text-align: center;
+  margin: 25px 0 10px;
+}
+.register p a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.register p a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 630px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: fit-content;
+  }
+  .box1 a {
+    font-size: medium;
+  }
+
+  .box1 {
+    display: inline-block;
+    width: 100%;
+    font-size: small;
+  }
+  .mainh {
+    margin: 20px;
+    height: fit-content;
+    width: fit-content;
+    padding: 1rem 2rem;
+  }
+}

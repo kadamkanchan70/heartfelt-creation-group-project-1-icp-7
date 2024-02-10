@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.title1 {
+  font-family: "Kaushan Script", cursive;
+  text-align: center;
+  display: inline-block;
+  color: #900c3f;
+  font-size: 70px;
+  font-weight: 600;
+  padding: 150px;
+}
+.destination {
+  text-decoration: none;
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+  margin-left: 90px;
+  margin-right: 80px;
+}
+.destination .gift-img {
+  border-radius: 20px;
+  margin: 10px;
+  border: 1px solid black;
+  box-shadow: 0px 4px 8px 0px #000;
+}
+.gift-text {
+  font-size: 25px;
+  text-align: left;
+  padding: 20px;
+  color: rgb(36, 35, 35);
+}
+.destination .gifts {
+  font-family: "Kaushan Script", cursive;
+  font-size: 55px;
+  color: #cc0066;
+}
+.rate {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+}
+.rate .rate-text {
+  font-size: 30px;
+  text-align: left;
+  padding: 30px;
+  color: rgb(36, 35, 35);
+  margin: 40px;
+}
+.about1 {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+}
+.about1 .we-are {
+  font-size: 70px;
+  color: #cc0066;
+}
+.about1 .p1 {
+  font-size: 30px;
+  color: rgb(36, 35, 35);
+}
+.members {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+}
+.members .we-are {
+  font-size: 70px;
+  color: #cc0066;
+}
+.first-3 .m1 {
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  height: 500px;
+  display: inline-block;
+  justify-content: space-evenly;
+  margin: 20px;
+  padding: 10px;
+  width: 350px;
+  font-size: 30px;
+  box-shadow: 0 0 10px 3px #4f4c4e;
+  border-radius: 15px;
+}
+.socials {
+  border-radius: 20px;
+}
+.socials:hover {
+  text-decoration: none;
+  box-shadow: 4px 4px 4px 1px black;
+}
+
+.first-3 .m1:hover {
+  box-shadow: 0 6px 28px black;
+  position: relative;
+  transform: translateY(-6px);
+  transition: 0.3s;
+}
+.col1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.col2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.names {
+  margin-top: 20px;
+  font-size: 35px;
+}
+.first-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+@media screen and (max-width: 768px) {
+  .col2 {
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .title1 {
+    margin-left: 19%;
+  }
+  .space {
+    margin-bottom: -754px;
+  }
+  .first-3 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;
+  }
+
+  .first-3 .m1 {
+    height: 1350px;
+    width: 1000px;
+  }
+  .first-3 .m1 > img {
+    height: 1000px;
+  }
+  .m1 > div > a > img {
+    margin-top: 20px;
+    height: 100px;
+    border-radius: 50px;
+  }
+  .m1 > div > a > img:hover {
+    text-decoration: none;
+    box-shadow: 6px 6px 6px 3px black;
+  }
+  .names {
+    font-size: 82px;
+  }
+  .space {
+    margin-bottom: 0;
+  }
+  .menu {
+    margin: 5px;
+    padding: 5px;
+  }
+  .footer-col ul li a {
+    font-size: 30px !important;
+  }
+  .footer-col h4 {
+    font-size: 30px !important;
+  }
+  .footer-col .social-links a img {
+    height: 70px !important;
+  }
+  .footer-col .social-links a {
+    height: 68px !important;
+    width: 63px !important;
+  }
+  .menu {
+    font-size: 30px !important;
+  }
+  .nav {
+    height: 56px;
+  }
+}
