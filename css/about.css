@@ -1,139 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-* {
-    margin: 0;
-    padding:0;
-    background-size: cover;
-}
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 
-.main-body{
-    font-family: 'Kaushan Script', cursive;
-    margin-bottom: 80px;
-}
-.main-body .p1{
-    font-size: 120px;
+.title1 {
+    font-family: "Kaushan Script", cursive;
     text-align: center;
-    color:#900c3f;
-    margin-bottom:0;
-    margin-top: 80px;
-
+    color: #900c3f;
+    font-size: 70px;
+    font-weight: 600;
+    padding: 150px;
+    box-shadow: 0 0 10px 3px #e1388d;
 }
-.d1{
+.sp{
+    
+}
+.about1{
     text-align:center ;
     font-family: 'Kaushan Script', cursive;
-    font-size: 60px;
+}
+.about1 .we-are{
+    font-size: 70px;
     color: #cc0066;
-    margin-bottom: 0;
 }
-.h3{
-    margin-top: 20px;
-}
-.d1 .p2{
-    text-align:justify ;
-    font-family: 'Kaushan Script', cursive;
+.about1 .p1{
     font-size: 30px;
-    color:grey;
-    padding: 10px 50px;
-    margin-bottom: 40px;
+    color: rgb(36, 35, 35);
 }
-.p3{
+.members{
     text-align: center;
     font-family: 'Kaushan Script', cursive;
-    font-size: 30px;
-    color:grey;
-    margin-bottom: 4cm;
 }
-.heading{
-    font-family: 'Kaushan Script', cursive; 
-   text-align: center; 
-   font-size: 50px;
-   background-color:#cc0066 ;
-   color: white;
-   margin: 0;
-}
-.backimg{
-    width: 150px;
-}
-.p4{
-    font-family: 'Kaushan Script', cursive; 
-    color: #cc0066;
+.members .we-are{
     font-size: 70px;
+    color: #cc0066;
+    text-align: center;
+}   
+.first-3{
 }
-.Contactto{
-    background-color: #ffe6f2;
-    border: solid black;
+.first-3 .m1{
+    border-color: black;
     border-width: 2px;
+    border-style: solid;
+    height: 450px;
     display: inline-block;
-    margin: 50px;
-    
-    height: 400px;
-    width: 350px;
-}
-.peoples{
-    background-color: #ffe6f2;
-}
-.Contactto:hover{
-   box-shadow: 1px 1px 5px 6px black;
-   cursor: pointer;
-   transition: 0.5s;
-}
-.p3{
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
     font-size: 30px;
-    margin-bottom: 100px;
-    padding-bottom: 10px;
+    box-shadow: 0 0 10px 3px #4f4c4e;
 }
 
-.D1{
-    margin: 30px;
-    height: 700px;
-    width: 600px;
-    display: inline-block;
-    font-family: 'Kaushan Script', cursive;
-    box-shadow: 0 0 13px 3px rgb(7, 7, 7);
-    background-image: url(./../img/kanchan.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.D1:hover{
+.first-3 .m1: hover{
     transition: 1s;
-    border-radius: 10%;
+    border-radius: 10px;
 }
-.D2{
-        margin: 30px;
-        height: 700px;
-        width: 600px;
-        display: inline-block;
-        font-family: 'Kaushan Script', cursive;
-        box-shadow: 0 0 13px 3px rgb(7, 7, 7);
-        background-image: url(./../img/sarita1.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    .D2:hover{
-        transition: 1s;
-        border-radius: 10%;
-    }
-.D3{
-        margin: 30px;
-        height: 700px;
-        width: 600px;
-        display: inline-block;
-        font-family: 'Kaushan Script', cursive;
-        box-shadow: 0 0 13px 3px rgb(7, 7, 7);
-        background-image: url(./../img/sarita.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        
-}
-.D3:hover{
-    transition: 0.5s;
-    border-radius: 10%;
-}
-.name
-{
-    font-size: 50px;
-    font-family: 'Kaushan Script', cursive;
-    margin-top: 500px;
-    font-weight: 600;
-    color: white;
-}
-
