@@ -1,44 +1,33 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
-body{
-    margin: 0;
-    padding:0;
-    background-color: #ffe6f2;
-}
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
-.nav{
-    text-align: right;
-    display: flex;
-    background-color: #cc0066;
-   font-size: 25px;
-   position: relative;
-   justify-content:space-evenly;
-}
-.menu{
-   
-    color: white;
-    text-decoration: none;
-    font-family: 'Kaushan Script', cursive; 
-    padding: 2px 30px;
-    margin: 1px 15px;
-}
-.hamburger-menu{
-    height: 40px;
-    position: absolute;
-    right: 10px;
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffe6f2;
 }
 
-@media screen and (max-width:768px){
-    .hamburger-menu{
-        visibility: visible;
-    }
-    .menu{
-        display: none;
-    }
+.nav {
+  text-align: right;
+  display: flex;
+  background-color: #cc0066;
+  font-size: 25px;
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
 }
-@media screen and (min-width:769px) {
-    .hamburger-menu{
-        display:none;
-    }
-  }
+.menu {
+  color: white;
+  text-decoration: none;
+  font-family: "Kaushan Script", cursive;
+  padding: 2px 30px;
+  margin: 1px 15px;
+}
+.menu:hover {
+  color: #bfbfbf;
+  transform: translateY(-1px);
+  transition: 0.2s;
+}

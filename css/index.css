@@ -1,6 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+  @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 .heading {
-  font-family: "Kaushan Script", cursive;
+  font-family: 'Kaushan Script', cursive;
   text-align: center;
   font-size: 50px;
   background-color: #cc0066;
@@ -14,8 +16,9 @@
 .p {
   font-size: 25px;
   text-align: center;
+  position: relative;
   color: #cc0066;
-  font-family: "Kaushan Script", cursive;
+  font-family: 'Kaushan Script', cursive;
   margin: 0;
   background-color: #ffe6f2;
 }
@@ -61,18 +64,17 @@
   border-radius: 50%;
 }
 .icons:hover {
-  
   cursor: pointer;
   transition: 0.5s;
 }
 .head {
-  font-family: "Kaushan Script", cursive;
+  font-family: 'Kaushan Script', cursive;
   font-weight: bold;
   color: black;
   font-size: 30px;
 }
 .para {
-  font-family: "Kaushan Script", cursive;
+  font-family: 'Kaushan Script', cursive;
   font-size: 23px;
   color: grey;
   margin-bottom: 20px;
@@ -81,7 +83,7 @@
   color: #cc0066;
   text-align: center;
   font-size: 35px;
-  font-family: "Kaushan Script", cursive;
+  font-family: 'Kaushan Script', cursive;
   font-weight: bold;
   margin-bottom: 0%;
 }
@@ -89,7 +91,7 @@
   color: #900c3f;
   text-align: center;
   font-size: 80px;
-  font-family: "Kaushan Script", cursive;
+  font-family: 'Kaushan Script', cursive;
   margin-top: 0;
 }
 .Category-container {
@@ -107,13 +109,13 @@
   overflow: hidden;
   border-radius: 25px;
   box-shadow: 0px 4px 8px 0px #000;
-  
 }
 .Category-card:hover {
   box-shadow: 3px 3px 10px 4px #000;
   transition: 0.5s;
 }
-.Category-card:hover{
+
+.Category-card:hover {
   box-shadow: 5px 5px 5px 2px black;
 }
 .Category-img {
@@ -166,10 +168,18 @@
     padding: 10px;
   }
   .nav {
-    font-size: medium;
+    font-size:medium;
   }
 
-  .delivery{
-    margin-bottom:30px ;
+  .delivery {
+    margin-bottom: 30px;
+  }
+
+  .delivery {
+    margin-bottom: 30px;
+  }
+  .menu{
+    margin:2px;
+    padding: 2px;
   }
 }
