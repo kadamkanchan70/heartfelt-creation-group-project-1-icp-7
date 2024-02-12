@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 body {
   font-family: "Kaushan Script", cursive;
 }
@@ -8,17 +8,17 @@ body {
   margin: 0;
   padding: 0;
   box-shadow: 0px 4px 8px 0px #000;
+  
 }
+
 .maincol {
   display: flex;
   justify-content: space-between;
 }
 .column-2 {
   background-color: #ffe6f2;
-  margin-right: 100px;
-  width: 800px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  width: auto;
+  margin: 40px;
   border-radius: 10px;
   border: 1px solid black;
   box-shadow: 0px 4px 8px 0px #000;
@@ -72,7 +72,7 @@ body {
   padding-bottom: 2rem;
 }
 
-/*-- Contact Information --*/
+/-- Contact Information --/
 .contact-info {
   flex: 1 1 25rem;
   padding: 2rem 0;
@@ -100,7 +100,7 @@ body {
 
 .contact .contact-info .info-item p {
   font-size: 1.4rem;
-  color: var(--grey);
+  color: gray;
   padding-bottom: 0.5rem;
 }
 
@@ -108,7 +108,7 @@ body {
   text-transform: none;
 }
 
-/*-- Contact Form --*/
+/-- Contact Form --/
 .contact-container {
   flex: 1 1 50rem;
   padding: 4rem 5%;
@@ -131,6 +131,9 @@ body {
   align-items: center;
   gap: 1rem;
   margin-bottom: 1rem;
+}
+.input-field{
+  background-color: white;
 }
 .contact-form .input-field input {
   color: var(--main-color);
@@ -208,6 +211,10 @@ body {
   box-shadow: 0px 4px 8px 0px #000;
   font-family: "Kaushan Script", cursive;
 }
+.btn{
+  margin-left: 20px;
+  
+}
 .contact-form .btn:hover {
   background-color: #6b0824;
   transform: scale(1.03);
@@ -222,13 +229,21 @@ body {
   .maincol {
     flex-direction: column;
   }
-  .column-2 {
+  .img-map {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 4px 8px 0px #000;
+  }
+  /* .column-2 {
     flex-direction: column;
     margin-left: 90px;
     margin-bottom: 80px;
     align-items: center;
     justify-content: center;
-  }
+  } */
   .contact-form .btn {
     margin-bottom: 90px;
   }
@@ -239,26 +254,18 @@ body {
     flex-direction: column;
     margin-top: 30px;
   }
+.text {
+  font-size: 38px;
+}
   .contact-form {
     padding-bottom: 15px;
   }
-  .footer-col ul li a {
-    font-size: 30px !important;
-  }
-  .footer-col h4 {
-    font-size: 30px !important;
-  }
-  .footer-col .social-links a img {
-    height: 70px !important;
-  }
-  .footer-col .social-links a {
-    height: 68px !important;
-    width: 63px !important;
-  }
+ 
+  
   .menu {
-    font-size: 30px !important;
+    font-size: 17px !important;
   }
   .nav {
-    height: 56px;
+    height: auto;
   }
 }
