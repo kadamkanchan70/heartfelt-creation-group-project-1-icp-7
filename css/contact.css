@@ -8,7 +8,9 @@ body {
   margin: 0;
   padding: 0;
   box-shadow: 0px 4px 8px 0px #000;
+  
 }
+
 .maincol {
   display: flex;
   justify-content: space-between;
@@ -130,6 +132,9 @@ body {
   gap: 1rem;
   margin-bottom: 1rem;
 }
+.input-field{
+  background-color: white;
+}
 .contact-form .input-field input {
   color: var(--main-color);
   text-transform: capitalize;
@@ -205,6 +210,10 @@ body {
   color: azure;
   box-shadow: 0px 4px 8px 0px #000;
   font-family: "Kaushan Script", cursive;
+}
+.btn{
+  margin-left: 20px;
+  
 }
 .contact-form .btn:hover {
   background-color: #6b0824;
