@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 
 body {
   margin: 0;
@@ -12,6 +15,8 @@ body {
   background-color: #cc0066;
   font-size: 25px;
   position: relative;
+  display: flex;
+  text-align: center;
   justify-content: space-evenly;
 }
 .menu {
@@ -21,23 +26,8 @@ body {
   padding: 2px 30px;
   margin: 1px 15px;
 }
-
-.hamburger-menu {
-  height: 40px;
-  position: absolute;
-  right: 10px;
-}
-
-@media screen and (max-width: 768px) {
-  .hamburger-menu {
-    visibility: visible;
-  }
-  .menu {
-    display: none;
-  }
-}
-@media screen and (min-width: 769px) {
-  .hamburger-menu {
-    visibility: hidden;
-  }
+.menu:hover {
+  color: #bfbfbf;
+  transform: translateY(-1px);
+  transition: 0.2s;
 }

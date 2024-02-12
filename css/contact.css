@@ -8,21 +8,24 @@ body {
   margin: 0;
   padding: 0;
   box-shadow: 0px 4px 8px 0px #000;
+  
 }
+<<<<<<< HEAD
 .bottom-down{
   display: flex;
   flex-direction: row;
 }
+=======
+
+>>>>>>> 571ce85780faedf9b05300383c088e57a1f609fb
 .maincol {
   display: flex;
   justify-content: space-between;
 }
 .column-2 {
   background-color: #ffe6f2;
-  margin-right: 100px;
-  width: 800px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  width: auto;
+  margin: 40px;
   border-radius: 10px;
   border: 1px solid black;
   box-shadow: 0px 4px 8px 0px #000;
@@ -78,7 +81,7 @@ body {
   padding-bottom: 2rem;
 }
 
-/*-- Contact Information --*/
+/-- Contact Information --/
 .contact-info {
   flex: 1 1 25rem;
   padding: 2rem 0;
@@ -106,7 +109,7 @@ body {
 
 .contact .contact-info .info-item p {
   font-size: 1.4rem;
-  color: var(--grey);
+  color: gray;
   padding-bottom: 0.5rem;
 }
 
@@ -114,7 +117,7 @@ body {
   text-transform: none;
 }
 
-/*-- Contact Form --*/
+/-- Contact Form --/
 .contact-container {
   flex: 1 1 50rem;
   padding: 4rem 5%;
@@ -138,6 +141,9 @@ body {
   align-items: center;
   gap: 1rem;
   margin-bottom: 1rem;
+}
+.input-field{
+  background-color: white;
 }
 .contact-form .input-field input {
   color: var(--main-color);
@@ -215,6 +221,10 @@ body {
   box-shadow: 0px 4px 8px 0px #000;
   font-family: "Kaushan Script", cursive;
 }
+.btn{
+  margin-left: 20px;
+  
+}
 .contact-form .btn:hover {
   background-color: #6b0824;
   transform: scale(1.03);
@@ -225,6 +235,7 @@ body {
   font-size: 2rem;
   padding-left: 1rem;
 }
+<<<<<<< HEAD
 @media screen and (max-width: 768px){
   body {
     display: inline;
@@ -244,3 +255,49 @@ body {
   flex-direction: column;
 }
 }
+=======
+@media screen and (max-width: 768px) {
+  .maincol {
+    flex-direction: column;
+  }
+  .img-map {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 4px 8px 0px #000;
+  }
+  /* .column-2 {
+    flex-direction: column;
+    margin-left: 90px;
+    margin-bottom: 80px;
+    align-items: center;
+    justify-content: center;
+  } */
+  .contact-form .btn {
+    margin-bottom: 90px;
+  }
+  .column-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+.text {
+  font-size: 38px;
+}
+  .contact-form {
+    padding-bottom: 15px;
+  }
+ 
+  
+  .menu {
+    font-size: 17px !important;
+  }
+  .nav {
+    height: auto;
+  }
+}
+>>>>>>> 571ce85780faedf9b05300383c088e57a1f609fb
