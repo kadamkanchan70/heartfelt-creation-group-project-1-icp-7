@@ -10,14 +10,11 @@ body {
   box-shadow: 0px 4px 8px 0px #000;
   
 }
-<<<<<<< HEAD
 .bottom-down{
   display: flex;
   flex-direction: row;
 }
-=======
 
->>>>>>> 571ce85780faedf9b05300383c088e57a1f609fb
 .maincol {
   display: flex;
   justify-content: space-between;
@@ -81,7 +78,7 @@ body {
   padding-bottom: 2rem;
 }
 
-/-- Contact Information --/
+
 .contact-info {
   flex: 1 1 25rem;
   padding: 2rem 0;
@@ -117,7 +114,7 @@ body {
   text-transform: none;
 }
 
-/-- Contact Form --/
+
 .contact-container {
   flex: 1 1 50rem;
   padding: 4rem 5%;
@@ -235,27 +232,7 @@ body {
   font-size: 2rem;
   padding-left: 1rem;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 768px){
-  body {
-    display: inline;
-    height: fit-content;
-    font-size: smaller;
-  }
-  .map-main-img{
-    height: fit-content;
-    font-size: smaller;
-  }
-.column-2 {
-  display: flex;
-  flex-direction: column;
-}
-.bottom-down{
-  display: flex;
-  flex-direction: column;
-}
-}
-=======
+
 @media screen and (max-width: 768px) {
   .maincol {
     flex-direction: column;
@@ -294,10 +271,10 @@ body {
  
   
   .menu {
-    font-size: 17px !important;
+    font-size: 17px ;
   }
   .nav {
     height: auto;
   }
 }
->>>>>>> 571ce85780faedf9b05300383c088e57a1f609fb
+
