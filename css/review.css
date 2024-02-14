@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 section {
     padding: 100px;
 }
@@ -93,4 +94,20 @@ body {
     padding: 0;
     color: black;
     font-size: smaller;
+}
+.review-discription{
+    font-family: "Kaushan Script", cursive;
+    font-size: 20px;
+    color: grey;
+}
+.person-name{
+    font-family: "Kaushan Script", cursive;
+    font-size: 30px;
+}
+
+.card:hover{box-shadow: 0 6px 28px black;
+  position: relative;
+  transform: translateY(-6px);
+  font-size: 0.6rem;
+  transition: 0.3s;
 }
